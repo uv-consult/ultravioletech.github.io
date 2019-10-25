@@ -1,0 +1,1182 @@
+ body {
+     font-family: 'Nunito Sans', sans-serif;
+     line-height: 1.7;
+     color: #869ab8;
+     font-size: 15px;
+ }
+ .navbar {
+     margin-bottom: 0;
+     background-color: #0e0527;
+     ;
+     z-index: 9999;
+     border: 0;
+     font-size: 12px !important;
+     line-height: 1.42857143 !important;
+     letter-spacing: 3px;
+     border-radius: 0;
+     font-family: Montserrat, sans-serif;
+ }
+ .navbar li a,
+ .navbar .navbar-brand {
+     color: #fff !important;
+ }
+ .navbar-nav li a:hover,
+ .navbar-nav li.active a {
+     color: #230455 !important;
+     background-color: #fff !important;
+     font-weight: bolder;
+ }
+ .navbar-default .navbar-toggle {
+     border-color: transparent;
+     color: #ffffff !important;
+ }
+ .jumbotron {
+     font-family: Heebo, sans-serif;
+     color: white;
+     margin-bottom: 0;
+ }
+ .bgimage {
+     background-image: url('images/ultraviolet.jpg');
+     background-position: center center;
+     background-size: cover;
+     height: 760px;
+ }
+ .jumbotron h1 {
+     margin-left: 3%;
+     padding-left: 15px;
+     padding-bottom: 4px;
+     font-size: 69px;
+     background-color: rgba(15, 2, 33, 0.94);
+     width: 57%;
+     font-weight: 700;
+ }
+ #head-block {
+     margin-top: 10%;
+     margin-bottom: -0.4%;
+ }
+ .jumbotron p {
+     margin-left: 3%;
+     padding-left: 15px;
+     font-size: 20px;
+     background-color: rgba(15, 2, 33, 0.93);
+     width: 43%;
+     line-height: 1.6;
+ }
+ .btn-danger {
+     color: #fff;
+     background-color: #1327c3;
+     border-color: #1327c3;
+ }
+ .jumbotron form {
+     margin-left: 3.6%;
+     width: 29%;
+     margin-top: 3%;
+ }
+ .btn-danger:hover {
+     color: #fff;
+     background-color: #0a031d;
+     border-color: #1327c3;
+ }
+ /* --- CONSULTING SERVICES --- */
+ 
+ .bg-grey {
+     background-color: rgba(232, 228, 248, 0.53);
+ }
+ h2 {
+     font-size: 26px;
+     text-transform: uppercase;
+     color: #15224c;
+     font-weight: 600;
+     margin-bottom: 30px;
+     color: rgb(5, 18, 121, 0.97);
+     font-weight: 800;
+     font-family: Raleway, sans-serif;
+ }
+ h4 {
+     font-size: 19px;
+     line-height: 1.375em;
+     color: rgba(3, 16, 114, 0.97);
+     font-weight: 400;
+     margin-bottom: 20px;
+     font-family: 'Nunito Sans', sans-serif;
+ }
+ #services p {
+     width: 86%;
+     text-align: justify;
+ }
+ #services .get {
+     color: #fff;
+     background-color: #1327c3;
+     border-color: #1327c3;
+     width: 155px;
+     margin-top: 20px;
+ }
+ #services .get:hover {
+     color: #fff;
+     background-color: #c70a44;
+     border-color: #b5033a;
+ }
+ /* --- DEVELOPMENT --- */
+ 
+ #development p {
+     padding: 0 14% 0 14%;
+ }
+ .smart-contract {
+     height: 90px;
+ }
+ .wallet {
+     height: 90px;
+ }
+ .poc {
+     height: 90px;
+ }
+ .final {
+     height: 90px;
+ }
+ /* ---- Blockchain and IoT ---- */
+ 
+ .container-fluid {
+     padding: 60px 50px;
+ }
+ #blockiot p {
+     width: 86%;
+     text-align: justify;
+ }
+ /* --- USE CASES --- */
+ 
+ .thumbnail {
+     padding: 0 0 15px 0;
+     border: none;
+     border-radius: 0;
+ }
+ .thumbnail img {
+     width: 100%;
+     height: 100%;
+     margin-bottom: 10px;
+ }
+ /* --- PRICING --- */
+ 
+ .panel {
+     border: 1px solid #f4511e;
+     border-radius: 0;
+     transition: box-shadow 0.5s;
+ }
+ .panel:hover {
+     box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+ }
+ .panel-footer .btn:hover {
+     border: 1px solid #f4511e;
+     background-color: #fff !important;
+     color: #f4511e;
+ }
+ .panel-heading {
+     color: #fff !important;
+     background-color: #f4511e !important;
+     padding: 25px;
+     border-bottom: 1px solid transparent;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+ }
+ .panel-footer {
+     background-color: #fff !important;
+ }
+ .panel-footer h3 {
+     font-size: 32px;
+ }
+ .panel-footer h4 {
+     color: #aaa;
+     font-size: 14px;
+ }
+ .panel-footer .btn {
+     margin: 16px 0;
+     background-color: #f4511e;
+     color: #fff;
+ }
+ footer .glyphicon {
+     font-size: 20px;
+     margin-bottom: 20px;
+     color: #f4511e;
+ }
+ /* --- CAROUSEL --- */
+ 
+ .carousel-control.right,
+ .carousel-control.left {
+     background-image: none;
+     color: #f4511e;
+ }
+ .carousel-indicators li {
+     border-color: #f4511e;
+ }
+ .carousel-indicators li.active {
+     background-color: #f4511e;
+ }
+ .item h4 {
+     font-size: 19px;
+     line-height: 1.375em;
+     font-weight: 400;
+     font-style: italic;
+     margin: 70px 0;
+ }
+ /* ---- FOOTER --- */
+ 
+ .footer {
+     background-color: #14071d;
+ }
+ #contact h2 {
+     color: #869ab8;
+     margin-top: inherit;
+     margin-bottom: 60px;
+ }
+ #contact button {
+     color: #fff;
+     background-color: #1327c3;
+     border-color: #1327c3;
+     width: 140px;
+ }
+ #contact button:hover {
+     color: #fff;
+     background-color: #c70a44;
+     border-color: #b5033a;
+ }
+ /* Media queries */
+ 
+ @media screen and (min-width:1920px) and (max-width:2560px) {}
+ @media screen and (min-width:1600px) and (max-width:1919px) {
+     .jumbotron p {
+         width: 57%;
+         line-height: 1.6;
+     }
+     .jumbotron form {
+         margin-left: 3.6%;
+         width: 39%;
+         margin-top: 5%;
+     }
+     img.feasibility {
+         height: 500px;
+     }
+     #services p {
+         width: 94%;
+         text-align: justify;
+         line-height: 1.5;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+     }
+     img.iotblock {
+         height: 500px;
+     }
+     #blockiot h2 {
+         padding-left: 45px;
+         margin-top: 0;
+     }
+     #blockiot p {
+         padding-left: 45px;
+     }
+ }
+ @media screen and (min-width:1440px) and (max-width:1559px) {
+     .jumbotron h1 {
+         width: 62%;
+     }
+     .jumbotron p {
+         width: 62%;
+     }
+     .jumbotron form {
+         margin-left: 3.6%;
+         width: 39%;
+         margin-top: 5%;
+     }
+     img.feasibility {
+         height: 440px;
+         margin-top: 89px;
+     }
+     #services p {
+         width: 94%;
+         text-align: justify;
+         line-height: 1.5;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+     }
+     img.iotblock {
+         height: 450px;
+     }
+     #blockiot h2 {
+         padding-left: 45px;
+         margin-top: 0;
+     }
+     #blockiot p {
+         padding-left: 45px;
+         width: auto;
+     }
+ }
+ @media screen and (min-width:1366px) and (max-width:1399px) {
+     .jumbotron h1 {
+         width: 65%;
+     }
+     .jumbotron form {
+         margin-left: 3.6%;
+         width: 39%;
+         margin-top: 5%;
+     }
+     .jumbotron p {
+         width: 62%;
+     }
+     img.feasibility {
+         height: 420px;
+         margin-top: 110px;
+     }
+     #services p {
+         width: 94%;
+         text-align: justify;
+         line-height: 1.5;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+     }
+     img.iotblock {
+         height: 420px;
+     }
+     #blockiot h2 {
+         padding-left: 55px;
+         margin-top: 0;
+     }
+     #blockiot p {
+         padding-left: 55px;
+         width: auto;
+     }
+ }
+ @media screen and (min-width:1280px) and (max-width:1365px) {
+     .jumbotron h1 {
+         width: 69%;
+     }
+     .jumbotron p {
+         width: 62%;
+     }
+     .jumbotron form {
+         margin-left: 3.6%;
+         width: 39%;
+         margin-top: 5%;
+     }
+     img.feasibility {
+         height: 400px;
+         margin-top: 125px;
+     }
+     #services p {
+         width: 96%;
+         text-align: justify;
+         line-height: 1.5;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+     }
+     img.iotblock {
+         height: 420px;
+     }
+     #blockiot h2 {
+         padding-left: 69px;
+         margin-top: 0;
+     }
+     #blockiot p {
+         padding-left: 69px;
+         width: auto;
+     }
+ }
+ @media screen and (min-width:1024px) and (max-width:1279px) {
+     #head-block {
+         margin-top: 17%;
+     }
+     .jumbotron h1 {
+         width: 69%;
+         font-size: 57px;
+     }
+     .jumbotron p {
+         width: 62%;
+         font-size: 18px;
+     }
+     .jumbotron form {
+         margin-left: 3.6%;
+         width: 49%;
+         margin-top: 9%;
+     }
+     img.feasibility {
+         height: 320px;
+         margin-top: 125px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 14px;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+         line-height: 1.4;
+         font-size: 14px;
+     }
+     img.iotblock {
+         height: 320px;
+     }
+     #blockiot h2 {
+         padding-left: 45px;
+         margin-top: 0;
+     }
+     #blockiot p {
+         padding-left: 45px;
+         width: auto;
+         line-height: 1.4;
+         font-size: 14px;
+     }
+ }
+ @media screen and (min-width:800px) and (max-width:1023px) {
+     #head-block {
+         margin-top: 26%;
+     }
+     .jumbotron h1 {
+         width: 79%;
+         font-size: 50px;
+     }
+     .jumbotron p {
+         width: 72%;
+         font-size: 16px;
+     }
+     .jumbotron form {
+         margin-left: 3.6%;
+         width: 69%;
+         margin-top: 12%;
+     }
+     .col-sm-6 {
+         width: auto;
+     }
+     img.feasibility {
+         height: 475px;
+         margin-top: 125px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 474px;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+ }
+ @media screen and (min-width:768px) and (max-width:799px) {
+     #head-block {
+         margin-top: 24%;
+     }
+     .jumbotron h1 {
+         width: 79%;
+         font-size: 49px;
+     }
+     .jumbotron p {
+         width: 79%;
+         font-size: 17px;
+     }
+     .jumbotron form {
+         margin-left: 3.6%;
+         width: 69%;
+         margin-top: 12%;
+     }
+     .col-sm-6 {
+         width: auto;
+     }
+     img.feasibility {
+         height: 452px;
+         margin-top: 125px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 452px;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+ }
+ @media screen and (min-width:720px) and (max-width:767px) {
+     #head-block {
+         margin-top: 25%;
+     }
+     .jumbotron h1 {
+         width: 89%;
+         font-size: 50px;
+     }
+     .jumbotron p {
+         width: 89%;
+         font-size: 18px;
+     }
+     .jumbotron form {
+         margin-left: 5.6%;
+         width: 69%;
+         margin-top: 12%;
+     }
+     .col-sm-6 {
+         width: auto;
+     }
+     img.feasibility {
+         height: 418px;
+         margin-top: 125px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 418px;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+ }
+ @media screen and (min-width:600px) and (max-width:719px) {
+     #head-block {
+         margin-top: 30%;
+     }
+     .jumbotron h1 {
+         width: 90%;
+         font-size: 43px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 15px;
+     }
+     .jumbotron form {
+         margin-left: 5.4%;
+         width: 79%;
+         margin-top: 12%;
+     }
+     .col-sm-6 {
+         width: auto;
+     }
+     img.feasibility {
+         height: 340px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 8% 0 8%;
+         line-height: 1.4;
+         font-size: 16px;
+         text-align: justify;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 340px;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+ }
+ @media screen and (min-width:480px) and (max-width:599px) {
+     #head-block {
+         margin-top: 38%;
+     }
+     .jumbotron h1 {
+         width: 90%;
+         font-size: 35px;
+         padding-left: 3px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 13px;
+         padding-left: 3px;
+     }
+     .jumbotron form {
+         margin-left: 3.5%;
+         width: 85%;
+         margin-top: 12%;
+     }
+     .col-sm-6 {
+         width: auto;
+         padding-left: 8px;
+         margin-left: inherit;
+     }
+     img.feasibility {
+         height: 282px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 5% 0 5%;
+         line-height: 1.4;
+         font-size: 16px;
+         text-align: justify;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 282px;
+         margin-left: 0;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .col-sm-7 {
+         width: auto;
+         padding-left: 14px;
+         margin-top: 40px;
+     }
+     #name {
+         margin-left: 21px;
+         width: 94%;
+     }
+ }
+ @media screen and (min-width:414px) and (max-width:479px) {
+     #head-block {
+         margin-top: 42%;
+     }
+     .jumbotron h1 {
+         width: 90%;
+         font-size: 30px;
+         padding-left: 4px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 14px;
+         padding-left: 3px;
+         line-height: 1.3;
+     }
+     .jumbotron form {
+         margin-left: 3.5%;
+         width: 85%;
+         margin-top: 12%;
+     }
+     .col-sm-6 {
+         width: auto;
+         padding-left: 8px;
+         margin-left: inherit;
+     }
+     img.feasibility {
+         height: 240px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 1% 0 1%;
+         line-height: 1.4;
+         font-size: 16px;
+         text-align: justify;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 240px;
+         margin-left: 0;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .col-sm-7 {
+         width: auto;
+         padding-left: 14px;
+         margin-top: 45px;
+     }
+     #name {
+         margin-left: 21px;
+         width: 94%;
+     }
+ }
+ @media screen and (min-width:412px) and (max-width:413px) {
+     #head-block {
+         margin-top: 42%;
+     }
+     .jumbotron h1 {
+         width: 90%;
+         font-size: 30px;
+         padding-left: 4px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 14px;
+         padding-left: 3px;
+         line-height: 1.3;
+     }
+     .jumbotron form {
+         margin-left: 3.5%;
+         width: 85%;
+         margin-top: 12%;
+     }
+     .col-sm-6 {
+         width: auto;
+         padding-left: 8px;
+         margin-left: inherit;
+     }
+     img.feasibility {
+         height: 240px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 0 0 1%;
+         line-height: 1.4;
+         font-size: 16px;
+         text-align: justify;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 240px;
+         margin-left: 0;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .col-sm-7 {
+         width: auto;
+         padding-left: 14px;
+         margin-top: 45px;
+     }
+     #name {
+         margin-left: 21px;
+         width: 94%;
+     }
+ }
+ @media screen and (min-width:384px) and (max-width:411px) {
+     #head-block {
+         margin-top: 42%;
+     }
+     .jumbotron h1 {
+         width: 90%;
+         font-size: 27px;
+         padding-left: 12px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 14px;
+         padding-left: 12px;
+         line-height: 1.3;
+     }
+     .jumbotron form {
+         margin-left: 6.2%;
+         width: 85%;
+         margin-top: 12%;
+     }
+     h2 {
+         font-size: 22px;
+     }
+     .col-sm-6 {
+         width: auto;
+         padding-left: 8px;
+         margin-left: inherit;
+     }
+     img.feasibility {
+         height: 220px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development p {
+         padding: 0 0 0 3%;
+         line-height: 1.4;
+         font-size: 16px;
+         text-align: justify;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 220px;
+         margin-left: 0;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .col-sm-7 {
+         width: auto;
+         padding-left: 14px;
+         margin-top: 45px;
+     }
+     #name {
+         margin-left: 21px;
+         width: 94%;
+     }
+ }
+ @media screen and (min-width:375px) and (max-width:383px) {
+     #head-block {
+         margin-top: 42%;
+     }
+     .jumbotron h1 {
+         width: 95%;
+         font-size: 28px;
+         padding-left: 8px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 14px;
+         padding-left: 8px;
+         line-height: 1.3;
+     }
+     .jumbotron form {
+         margin-left: 4.4%;
+         width: 85%;
+         margin-top: 12%;
+     }
+     h2 {
+         font-size: 22px;
+     }
+     .col-sm-6 {
+         width: auto;
+         padding-left: 8px;
+         margin-left: inherit;
+     }
+     img.feasibility {
+         height: 212px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development .col-xs-12 {
+         padding-right: 0;
+         margin-left: auto;
+     }
+     #development p {
+         padding: 0 0 0 0;
+         line-height: 1.4;
+         font-size: 16px;
+         text-align: justify;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 212px;
+         margin-left: 0;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .col-sm-7 {
+         width: auto;
+         padding-left: 14px;
+         margin-top: 45px;
+     }
+     #name {
+         margin-left: 21px;
+         width: 94%;
+     }
+ }
+ @media screen and (min-width:360px) and (max-width:374px) {
+     #head-block {
+         margin-top: 42%;
+     }
+     .jumbotron h1 {
+         width: 95%;
+         font-size: 27px;
+         padding-left: 6px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 14px;
+         padding-left: 6px;
+         line-height: 1.3;
+     }
+     .jumbotron form {
+         margin-left: 4.1%;
+         width: 85%;
+         margin-top: 12%;
+     }
+     h2 {
+         font-size: 22px;
+     }
+     .col-sm-6 {
+         width: auto;
+         padding-left: 8px;
+         margin-left: inherit;
+     }
+     img.feasibility {
+         height: 204px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     #development .col-xs-12 {
+         padding-right: 0;
+         margin-left: auto;
+     }
+     #development p {
+         padding: 0 0 0 0;
+         line-height: 1.4;
+         font-size: 16px;
+         text-align: justify;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 203px;
+         margin-left: 0;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.4;
+         font-size: 16px;
+     }
+     .col-sm-7 {
+         width: auto;
+         padding-left: 14px;
+         margin-top: 45px;
+     }
+     #name {
+         margin-left: 21px;
+         width: 94%;
+     }
+ }
+ @media screen and (min-width:320px) and (max-width:359px) {
+     .navbar-brand {
+         font-size: 14px;
+     }
+     #head-block {
+         margin-top: 42%;
+     }
+     .jumbotron h1 {
+         width: 95%;
+         font-size: 24px;
+         padding-left: 6px;
+     }
+     .jumbotron p {
+         width: 94%;
+         font-size: 14px;
+         padding-left: 6px;
+         line-height: 1.4;
+     }
+     .jumbotron form {
+         margin-left: 4.6%;
+         width: 88%;
+         margin-top: 12%;
+     }
+     h2 {
+         font-size: 22px;
+     }
+     .col-sm-6 {
+         width: auto;
+         padding-left: 1px;
+         margin-left: inherit;
+         padding: 0;
+     }
+     img.feasibility {
+         height: 187px;
+         margin-top: 90px;
+     }
+     #services p {
+         width: 100%;
+         text-align: justify;
+         line-height: 1.3;
+         font-size: 16px;
+     }
+     #development .col-xs-12 {
+         padding-right: 0;
+         margin-left: auto;
+     }
+     #development p {
+         padding: 0 0 0 0;
+         line-height: 1.3;
+         font-size: 16px;
+         text-align: center;
+     }
+     .wallet {
+         margin-top: 59px;
+     }
+     .final {
+         margin-top: 57px;
+     }
+     img.iotblock {
+         height: 187px;
+         margin-left: 0;
+     }
+     #blockiot h2 {
+         padding-left: 0;
+         margin-top: 40px;
+     }
+     #blockiot p {
+         padding-left: 0;
+         width: auto;
+         line-height: 1.3;
+         font-size: 16px;
+     }
+     .col-sm-7 {
+         width: auto;
+         padding-left: 14px;
+         margin-top: 45px;
+     }
+     #name {
+         margin-left: 21px;
+         width: 94%;
+     }
+ }
+ @media screen and (max-width:768px) {
+     .col-sm-4 {
+         text-align: center;
+         margin: 25px 0;
+     }
+ }
