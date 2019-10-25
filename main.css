@@ -4,6 +4,10 @@
      color: #869ab8;
      font-size: 15px;
  }
+ @font-face {
+     font-family: Techna Sans;
+     src: url('Techna Sans.otf')
+ }
  .navbar {
      margin-bottom: 0;
      background-color: #0e0527;
@@ -11,14 +15,27 @@
      z-index: 9999;
      border: 0;
      font-size: 12px !important;
-     line-height: 1.42857143 !important;
-     letter-spacing: 3px;
+     line-height: 1.22857143 !important;
+     letter-spacing: 1px;
      border-radius: 0;
      font-family: Montserrat, sans-serif;
  }
  .navbar li a,
  .navbar .navbar-brand {
      color: #fff !important;
+ }
+ #bold {
+     font-family: Techna Sans;
+ }
+ #thin {
+     font-family: Catamaran;
+     font-weight: 400;
+     padding-left: 6px;
+ }
+ img.logo-img {
+     height: 22px;
+     margin-top: 15px;
+     margin-left: -85px;
  }
  .navbar-nav li a:hover,
  .navbar-nav li.active a {
@@ -57,7 +74,7 @@
  .jumbotron p {
      margin-left: 3%;
      padding-left: 15px;
-     font-size: 20px;
+     font-size: 21px;
      background-color: rgba(15, 2, 33, 0.93);
      width: 43%;
      line-height: 1.6;
