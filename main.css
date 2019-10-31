@@ -1,7 +1,7 @@
  body {
      font-family: 'Nunito Sans', sans-serif;
      line-height: 1.7;
-     color: #869ab8;
+     color:   rgb(83, 89, 132);
      font-size: 15px;
  }
  @font-face {
@@ -34,7 +34,7 @@
  }
  img.logo-img {
      height: 22px;
-     margin-top: 15px;
+     margin-top: 14px;
      margin-left: -85px;
  }
  .navbar-nav li a:hover,
@@ -65,7 +65,9 @@
      font-size: 69px;
      background-color: rgba(15, 2, 33, 0.94);
      width: 57%;
-     font-weight: 700;
+     font-weight: 500;
+     font-family: Techna Sans;
+     letter-spacing: 2px;
  }
  #head-block {
      margin-top: 10%;
@@ -97,7 +99,7 @@
  /* --- CONSULTING SERVICES --- */
  
  .bg-grey {
-     background-color: rgba(232, 228, 248, 0.53);
+     background-color: #f7f5fa;
  }
  h2 {
      font-size: 26px;
@@ -159,43 +161,104 @@
      width: 86%;
      text-align: justify;
  }
- /* --- USE CASES --- */
+ /* ---- ABOUT TEAM --- */
  
- .thumbnail {
-     padding: 0 0 15px 0;
-     border: none;
-     border-radius: 0;
+ .backimage {
+     background-image: url('images/blockchain-team-background.jpg');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
  }
- .thumbnail img {
-     width: 100%;
-     height: 100%;
-     margin-bottom: 10px;
+ #about {
+     background-color: rgba(0, 2, 78, 0.85);
+     padding: 10px 12px 12px 26px;
  }
- /* --- PRICING --- */
+ #about h2 {
+     color: white;
+ }
+ #about h4 {
+     color: white;
+ }
+ #about p {
+     width: 500px;
+     text-align: justify;
+     color: white;
+     font-weight: 300;
+ }
+ #dejanimg {
+     height: 152px;
+ }
+ #daba {
+     padding-left: 58px;
+ }
+ #daba p {
+     color: rgba(1, 11, 85, 0.97);
+     width: 600px;
+     text-align: justify;
+     line-height: 1.533;
+ }
+ /* ----  Team --- */
  
- .panel {
-     border: 1px solid #f4511e;
-     border-radius: 0;
-     transition: box-shadow 0.5s;
+ #team-members {
+     margin-top: 60px;
  }
- .panel:hover {
-     box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+ #team-members h4 {
+     color: white;
+     font-size: 17px;
+     margin-bottom: 12px;
  }
- .panel-footer .btn:hover {
-     border: 1px solid #f4511e;
-     background-color: #fff !important;
-     color: #f4511e;
+ #team-members p {
+     color: white;
+     font-size: 13px;
+     width: 80%;
+     text-align: justify;
+     line-height: 1.533;
  }
- .panel-heading {
-     color: #fff !important;
-     background-color: #f4511e !important;
+ .teamphoto {
+     height: 120px;
+ }
+ .member {
+     background-color: rgba(15, 2, 33, 0.94);
      padding: 25px;
-     border-bottom: 1px solid transparent;
-     border-top-left-radius: 0px;
-     border-top-right-radius: 0px;
-     border-bottom-left-radius: 0px;
-     border-bottom-right-radius: 0px;
  }
+ #nikola {
+     width: 32%;
+ }
+ #manuel {
+     margin-left: 25px;
+     margin-right: 25px;
+     width: 32%;
+ }
+ #dusan {
+     width: 32%;
+ }
+ /* --- team second row --- */
+ 
+ #team-members2 {
+     margin-top: 25px;
+     margin-bottom: 60px;
+ }
+ #team-members2 h4 {
+     color: white;
+     font-size: 17px;
+     margin-bottom: 12px;
+ }
+ #team-members2 p {
+     color: white;
+     font-size: 13px;
+     width: 80%;
+     text-align: justify;
+     line-height: 1.533;
+ }
+ .aca {
+     padding-bottom: 44px;
+ }
+ /* ---- FOOTER --- */
+ 
  .panel-footer {
      background-color: #fff !important;
  }
@@ -216,28 +279,6 @@
      margin-bottom: 20px;
      color: #f4511e;
  }
- /* --- CAROUSEL --- */
- 
- .carousel-control.right,
- .carousel-control.left {
-     background-image: none;
-     color: #f4511e;
- }
- .carousel-indicators li {
-     border-color: #f4511e;
- }
- .carousel-indicators li.active {
-     background-color: #f4511e;
- }
- .item h4 {
-     font-size: 19px;
-     line-height: 1.375em;
-     font-weight: 400;
-     font-style: italic;
-     margin: 70px 0;
- }
- /* ---- FOOTER --- */
- 
  .footer {
      background-color: #14071d;
  }
@@ -248,7 +289,7 @@
  }
  #contact button {
      color: #fff;
-     background-color: #1327c3;
+     background-color: #0c1fad;
      border-color: #1327c3;
      width: 140px;
  }
@@ -259,8 +300,15 @@
  }
  /* Media queries */
  
- @media screen and (min-width:1920px) and (max-width:2560px) {}
+ @media screen and (min-width:1920px) and (max-width:2560px) {
+     img.logo-img {
+         margin-left: -315px;
+     }
+ }
  @media screen and (min-width:1600px) and (max-width:1919px) {
+     img.logo-img {
+         margin-left: -155px;
+     }
      .jumbotron p {
          width: 57%;
          line-height: 1.6;
@@ -290,6 +338,15 @@
      }
      #blockiot p {
          padding-left: 45px;
+     }
+     #about p {
+         line-height: 1.54;
+     }
+     #team-members p {
+         width: 85%;
+     }
+     #team-members2 p {
+         width: 84%;
      }
  }
  @media screen and (min-width:1440px) and (max-width:1559px) {
@@ -327,8 +384,24 @@
          padding-left: 45px;
          width: auto;
      }
+     #about p {
+         line-height: 1.54;
+         width: 560px;
+     }
+     #daba {
+         padding-left: 49px;
+     }
+     #team-members p {
+         width: 97%;
+     }
+     #team-members2 p {
+         width: 97%;
+     }
  }
  @media screen and (min-width:1366px) and (max-width:1399px) {
+     img.logo-img {
+         margin-left: -48px;
+     }
      .jumbotron h1 {
          width: 65%;
      }
@@ -363,8 +436,28 @@
          padding-left: 55px;
          width: auto;
      }
+     #about p {
+         line-height: 1.54;
+         width: 555px;
+     }
+     #daba {
+         padding-left: 30px;
+     }
+     #team-members p {
+         width: 100%;
+     }
+     #team-members2 p {
+         width: 100%;
+     }
+     .nikola,
+     .sasa {
+         padding-bottom: 6px;
+     }
  }
  @media screen and (min-width:1280px) and (max-width:1365px) {
+     img.logo-img {
+         margin-left: -8px;
+     }
      .jumbotron h1 {
          width: 69%;
      }
@@ -399,13 +492,52 @@
          padding-left: 69px;
          width: auto;
      }
+     #about p {
+         line-height: 1.54;
+         width: 525px;
+     }
+     #daba {
+         padding-left: 50px;
+     }
+     #daba p {
+         width: 530px;
+         line-height: 1.44;
+     }
+     #team-members p {
+         width: 100%;
+     }
+     #team-members2 p {
+         width: 100%;
+     }
+     .nikola,
+     .sasa {
+         padding-bottom: 6px;
+     }
+     #nikola {
+         width: 31.7%;
+     }
+     #manuel {
+         width: 31.7%;
+     }
+     #dusan {
+         width: 31.7%;
+     }
+     .manuel {
+         padding-bottom: 5px;
+     }
+     .sasa {
+         padding-bottom: 25px;
+     }
  }
  @media screen and (min-width:1024px) and (max-width:1279px) {
+     img.logo-img {
+         margin-left: 5px;
+     }
      #head-block {
          margin-top: 17%;
      }
      .jumbotron h1 {
-         width: 69%;
+         width: 79%;
          font-size: 57px;
      }
      .jumbotron p {
@@ -444,6 +576,59 @@
          width: auto;
          line-height: 1.4;
          font-size: 14px;
+     }
+     #about p {
+         line-height: 1.54;
+         width: 425px;
+         font-size: 14px;
+         padding-bottom: 6px;
+     }
+     #dejanimg {
+         height: 130px;
+     }
+     #daba {
+         padding-left: 35px;
+     }
+     #daba h4 {
+         margin-bottom: 12px;
+     }
+     #daba p {
+         width: 434px;
+         line-height: 1.44;
+         font-size: 14px;
+     }
+     #team-members h4 {
+         font-size: 16px;
+     }
+     #team-members p {
+         width: 100%;
+         line-height: 1.4;
+         font-size: 12px;
+     }
+     #team-members2 h4 {
+         font-size: 16px;
+     }
+     #team-members2 p {
+         width: 100%;
+         line-height: 1.4;
+         font-size: 12px;
+     }
+     .nikola {
+         padding-bottom: 29px;
+     }
+     .sasa {
+         padding-bottom: 48px;
+     }
+     #nikola {
+         width: 31.9%;
+     }
+     #manuel {
+         width: 31.9%;
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+     #dusan {
+         width: 31.9%;
      }
  }
  @media screen and (min-width:800px) and (max-width:1023px) {
