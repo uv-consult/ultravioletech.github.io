@@ -205,7 +205,10 @@
  
  #team-members {
      margin-top: 60px;
+     display: none;
  }
+/* --- team removed --- */
+
  #team-members h4 {
      color: white;
      font-size: 17px;
@@ -241,7 +244,9 @@
  #team-members2 {
      margin-top: 25px;
      margin-bottom: 60px;
+     display: none;
  }
+ /* --- team removed --- */
  #team-members2 h4 {
      color: white;
      font-size: 17px;
