@@ -39,11 +39,20 @@
      margin-top: 14px;
      margin-left: -85px;
  }
- .navbar-nav li a:hover,
- .navbar-nav li.active a {
+ .item a:hover,
+ .item.active a {
      color: #230455 !important;
      background-color: #fff !important;
      font-weight: bolder;
+ }
+ .item a:hover img {
+    background-color: #230455;
+ }
+ .item a {
+     height: 50px;
+ }
+ .nav>li>a>img {
+     max-height: 24px;
  }
  .navbar-default .navbar-toggle {
      border-color: transparent;
@@ -54,6 +63,7 @@
      color: white;
      margin-bottom: 0;
  }
+ 
  .bgimage {
      background-image: url('images/ultraviolet.jpg');
      background-position: center center;
@@ -2204,3 +2214,4 @@
 .advisors {
     text-align: center;
 }
+
