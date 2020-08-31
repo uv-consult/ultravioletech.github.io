@@ -554,7 +554,8 @@
          margin-top: 9%;
      }
      img.feasibility {
-         height: 850px;
+         height: 950px;
+         width: 450px;
          margin-top: 125px;
      }
      #services p {
@@ -663,7 +664,8 @@
      }
      img.feasibility {
          height: 600px;
-         width: fit-content;
+         width: 620px;
+         margin-left: 15%;
          margin-top: 125px;
      }
      #services p {
@@ -785,8 +787,9 @@
          width: auto;
      }
      img.feasibility {
-         height: 600px;
-         width: fit-content;
+         height: 580px;
+         width: 580px;
+         margin-left: 12%;;
          margin-top: 45px;
      }
      #services p {
@@ -908,8 +911,9 @@
          width: auto;
      }
      img.feasibility {
-         height: 600px;
-         width: fit-content;
+         height: 520px;
+         width: 520px;
+         margin-left: 10%;
          margin-top: 45px;
      }
      #services p {
@@ -1032,7 +1036,7 @@
      }
      img.feasibility {
          height: 400px;
-         width: 550px;
+         width: 450px;
          margin-top: 45px;
      }
      #services p {
@@ -1160,7 +1164,7 @@
      }
      img.feasibility {
          height: 282px;
-         width: 480px;
+         width: 450px;
          margin-top: 35px;
      }
      #services p {
