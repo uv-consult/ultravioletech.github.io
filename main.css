@@ -409,6 +409,7 @@
     img.feasibility {
          height: 900px;
          max-width: 100%;
+         margin-top: 27px;
     }
     img.alt-feasibility {
         display: none;
