@@ -2180,11 +2180,12 @@
          margin: 25px 0;
      }
  }
-
 .advisors {
     text-align: center;
 }
-
 #contact .row .col-md-6, #contact .row .col-md-12, #contact .row .col-md-1 {
     padding-left: 0px;
+}
+.advisor {
+    margin-bottom: 25px;
 }
