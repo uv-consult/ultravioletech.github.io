@@ -332,9 +332,6 @@
          width: 39%;
          margin-top: 5%;
      }
-     img.feasibility {
-         height: 500px;
-     }
      #services p {
          width: 94%;
          text-align: justify;
@@ -363,7 +360,7 @@
          width: 84%;
      }
  }
- @media screen and (min-width:1440px) and (max-width:1559px) {
+ @media screen and (min-width:1400px) and (max-width:1559px) {
      .jumbotron h1 {
          width: 62%;
      }
@@ -374,10 +371,6 @@
          margin-left: 3.6%;
          width: 39%;
          margin-top: 5%;
-     }
-     img.feasibility {
-         height: 440px;
-         margin-top: 89px;
      }
      #services p {
          width: 94%;
@@ -412,6 +405,51 @@
          width: 97%;
      }
  }
+ @media screen and (min-width:1440px) {
+    img.feasibility {
+         height: 900px;
+         max-width: 100%;
+    }
+    img.alt-feasibility {
+        display: none;
+    }
+ }
+ @media screen and (min-width:1300px) and (max-width:1439px) {
+    img.feasibility {
+        height: 840px;
+        margin-top: 18%;
+    }
+    img.alt-feasibility {
+        display: none;
+    }
+ }
+ @media screen and (min-width:1120px) and (max-width:1299px) {
+    img.feasibility {
+        height: 720px;
+        margin-top: 25%;
+    }
+    img.alt-feasibility {
+        display: none;
+    }
+ }
+ @media screen and (min-width:1024px) and (max-width:1119px) {
+    img.feasibility {
+        height: 660px;
+        margin-top: 27%;
+    }
+    img.alt-feasibility {
+        display: none;
+    }
+ }
+   @media screen and (max-width:1023px) {
+    img.feasibility {
+        display: none;
+    }
+    img.alt-feasibility {
+        display: block;
+        width: 100%;
+    }
+ }
  @media screen and (min-width:1366px) and (max-width:1399px) {
      img.logo-img {
          margin-left: -48px;
@@ -426,10 +464,6 @@
      }
      .jumbotron p {
          width: 62%;
-     }
-     img.feasibility {
-         height: 420px;
-         margin-top: 110px;
      }
      #services p {
          width: 94%;
@@ -482,10 +516,6 @@
          margin-left: 3.6%;
          width: 39%;
          margin-top: 5%;
-     }
-     img.feasibility {
-         height: 900px;
-         margin-top: 125px;
      }
      #services p {
          width: 96%;
@@ -562,11 +592,6 @@
          margin-left: 3.6%;
          width: 49%;
          margin-top: 9%;
-     }
-     img.feasibility {
-         height: 950px;
-         width: 100%;
-         margin-top: 125px;
      }
      #services p {
          width: 100%;
@@ -671,11 +696,6 @@
      }
      .col-sm-6 {
          width: auto;
-     }
-     img.feasibility {
-         height: 600px;
-         width: 100%;
-         margin-top: 125px;
      }
      #services p {
          width: 100%;
@@ -795,11 +815,6 @@
      .col-sm-6 {
          width: auto;
      }
-     img.feasibility {
-         height: 580px;
-         width: 100%;
-         margin-top: 45px;
-     }
      #services p {
          width: 100%;
          text-align: justify;
@@ -918,11 +933,6 @@
      .col-sm-6 {
          width: auto;
      }
-     img.feasibility {
-         height: 520px;
-         width: 100%;
-         margin-top: 45px;
-     }
      #services p {
          width: 100%;
          text-align: justify;
@@ -1040,11 +1050,6 @@
      }
      .col-sm-6 {
          width: auto;
-     }
-     img.feasibility {
-         height: 450px;
-         width: 100%;
-         margin-top: 45px;
      }
      #services p {
          width: 100%;
@@ -1168,11 +1173,6 @@
          width: auto;
          padding-left: 8px;
          margin-left: inherit;
-     }
-     img.feasibility {
-         height: 310px;
-         width: 100%;
-         margin-top: 35px;
      }
      #services p {
          width: 100%;
@@ -1312,11 +1312,6 @@
          padding-left: 8px;
          margin-left: inherit;
      }
-     img.feasibility {
-         height: 240px;
-         width: 100%;
-         margin-top: 40px;
-     }
      #services p {
          width: 100%;
          text-align: justify;
@@ -1454,11 +1449,6 @@
          width: auto;
          padding-left: 8px;
          margin-left: inherit;
-     }
-     img.feasibility {
-         height: 240px;
-         width: 100%;
-         margin-top: 40px;
      }
      #services p {
          width: 100%;
@@ -1600,11 +1590,6 @@
          width: auto;
          padding-left: 7px;
          margin-left: inherit;
-     }
-     img.feasibility {
-         height: 226px;
-         width: 100%;
-         margin-top: 30px;
      }
      #services p {
          width: 108%;
@@ -1751,11 +1736,6 @@
          width: auto;
          padding-left: 8px;
          margin-left: inherit;
-     }
-     img.feasibility {
-         height: 212px;
-         width: 100%;
-         margin-top: 12px;
      }
      #services p {
          width: 100%;
@@ -1906,11 +1886,6 @@
          width: auto;
          padding-left: 8px;
          margin-left: inherit;
-     }
-     img.feasibility {
-         height: 204px;
-         width: 100%;
-         margin-top: 12px;
      }
      #services p {
          width: 100%;
@@ -2065,11 +2040,6 @@
          padding-left: 1px;
          margin-left: inherit;
          padding: 0;
-     }
-     img.feasibility {
-         height: 187px;
-         width: 100%;
-         margin-top: 12px;
      }
      #services p {
          width: 100%;
