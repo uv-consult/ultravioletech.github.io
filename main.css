@@ -98,7 +98,7 @@
      border-color: #1327c3;
  }
  .jumbotron form {
-     margin-left: 3.6%;
+     margin-left: 3;
      width: 29%;
      margin-top: 3%;
  }
@@ -187,6 +187,7 @@
  #about {
      background-color: rgba(0, 2, 78, 0.85);
      padding: 10px 12px 12px 26px;
+     margin-left: 2%;
  }
  #about h2 {
      color: white;
